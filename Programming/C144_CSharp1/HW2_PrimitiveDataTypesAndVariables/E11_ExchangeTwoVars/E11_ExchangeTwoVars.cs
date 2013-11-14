@@ -7,12 +7,13 @@ class E11_ExchangeTwoVars
     {
         int a = 5;
         int b = 10;
-        int c = a;
+        int c = a; // Temp Var method
 
         System.Console.WriteLine("a == {0}; b == {1}", a, b);
         a = b;
         b = c;
-        // XOR method a ^= b; b ^= a; a ^= b;
+        // a ^= b; b ^= a; a ^= b; // XOR method
+        // a = a + b; b = a - b; a = a - b; // addition method
         
         System.Console.WriteLine("a == {0}; b == {1}", a, b);
     }
