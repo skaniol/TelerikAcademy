@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E09_IsoscelesTriangle", "E0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E11_ExchangeTwoVars", "E11_ExchangeTwoVars\E11_ExchangeTwoVars.csproj", "{A15C66A2-6979-49C6-A4BE-3B08B14287DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E10_EmployeeRecord", "E10_EmployeeRecord\E10_EmployeeRecord.csproj", "{5B36CEFF-3E3C-491B-8AD1-72027CD2849B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E13_NullValues", "E13_NullValues\E13_NullValues.csproj", "{CB83C39C-57F7-481B-9308-E3D3EE16D0F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -67,6 +71,14 @@ Global
 		{A15C66A2-6979-49C6-A4BE-3B08B14287DB}.Debug|x86.Build.0 = Debug|x86
 		{A15C66A2-6979-49C6-A4BE-3B08B14287DB}.Release|x86.ActiveCfg = Release|x86
 		{A15C66A2-6979-49C6-A4BE-3B08B14287DB}.Release|x86.Build.0 = Release|x86
+		{5B36CEFF-3E3C-491B-8AD1-72027CD2849B}.Debug|x86.ActiveCfg = Debug|x86
+		{5B36CEFF-3E3C-491B-8AD1-72027CD2849B}.Debug|x86.Build.0 = Debug|x86
+		{5B36CEFF-3E3C-491B-8AD1-72027CD2849B}.Release|x86.ActiveCfg = Release|x86
+		{5B36CEFF-3E3C-491B-8AD1-72027CD2849B}.Release|x86.Build.0 = Release|x86
+		{CB83C39C-57F7-481B-9308-E3D3EE16D0F3}.Debug|x86.ActiveCfg = Debug|x86
+		{CB83C39C-57F7-481B-9308-E3D3EE16D0F3}.Debug|x86.Build.0 = Debug|x86
+		{CB83C39C-57F7-481B-9308-E3D3EE16D0F3}.Release|x86.ActiveCfg = Release|x86
+		{CB83C39C-57F7-481B-9308-E3D3EE16D0F3}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
