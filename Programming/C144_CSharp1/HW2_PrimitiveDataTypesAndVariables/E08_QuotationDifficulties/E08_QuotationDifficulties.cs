@@ -8,7 +8,9 @@ class E08_QuotationDifficulties
     {
         string escapedString = "The \"use\" of quotations causes difficulties.";
         string quotedString = @"The ""use"" of quotations causes difficulties.";
+        string unicodeString = "The \u0022use\u0022 of quotations causes difficulties.";
         System.Console.WriteLine(escapedString);
         System.Console.WriteLine(quotedString);
+        System.Console.WriteLine(unicodeString);
     }
 }
