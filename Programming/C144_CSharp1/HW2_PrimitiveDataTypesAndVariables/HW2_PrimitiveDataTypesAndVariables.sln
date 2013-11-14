@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E08_QuotationDifficulties",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E09_IsoscelesTriangle", "E09_IsoscelesTriangle\E09_IsoscelesTriangle.csproj", "{8BE76586-365A-491D-9BE5-39031C264CD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E11_ExchangeTwoVars", "E11_ExchangeTwoVars\E11_ExchangeTwoVars.csproj", "{A15C66A2-6979-49C6-A4BE-3B08B14287DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -61,6 +63,10 @@ Global
 		{8BE76586-365A-491D-9BE5-39031C264CD4}.Debug|x86.Build.0 = Debug|x86
 		{8BE76586-365A-491D-9BE5-39031C264CD4}.Release|x86.ActiveCfg = Release|x86
 		{8BE76586-365A-491D-9BE5-39031C264CD4}.Release|x86.Build.0 = Release|x86
+		{A15C66A2-6979-49C6-A4BE-3B08B14287DB}.Debug|x86.ActiveCfg = Debug|x86
+		{A15C66A2-6979-49C6-A4BE-3B08B14287DB}.Debug|x86.Build.0 = Debug|x86
+		{A15C66A2-6979-49C6-A4BE-3B08B14287DB}.Release|x86.ActiveCfg = Release|x86
+		{A15C66A2-6979-49C6-A4BE-3B08B14287DB}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
