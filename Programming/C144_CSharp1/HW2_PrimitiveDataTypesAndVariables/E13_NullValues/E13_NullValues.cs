@@ -11,7 +11,7 @@ class E13_NullValues
         int? intVar = null;
         double? doubleVar = null;
         Console.WriteLine("int = {0}, double = {1}", intVar, doubleVar);
-        intVar += 5;
+        intVar += null;
         doubleVar += 1.5;
         Console.WriteLine("int = {0}, double = {1}", intVar, doubleVar);
     }
