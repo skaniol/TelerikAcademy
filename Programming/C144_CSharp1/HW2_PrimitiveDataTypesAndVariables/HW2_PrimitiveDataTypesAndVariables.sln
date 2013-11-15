@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E13_NullValues", "E13_NullV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E14_BankAccount", "E14_BankAccount\E14_BankAccount.csproj", "{27101473-7DF5-47AD-9ADF-E5066FC45C11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E12_ASCIITable", "E12_ASCIITable\E12_ASCIITable.csproj", "{B8D230EB-C02D-42C2-B8DA-105F3832CCC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -85,6 +87,10 @@ Global
 		{27101473-7DF5-47AD-9ADF-E5066FC45C11}.Debug|x86.Build.0 = Debug|x86
 		{27101473-7DF5-47AD-9ADF-E5066FC45C11}.Release|x86.ActiveCfg = Release|x86
 		{27101473-7DF5-47AD-9ADF-E5066FC45C11}.Release|x86.Build.0 = Release|x86
+		{B8D230EB-C02D-42C2-B8DA-105F3832CCC8}.Debug|x86.ActiveCfg = Debug|x86
+		{B8D230EB-C02D-42C2-B8DA-105F3832CCC8}.Debug|x86.Build.0 = Debug|x86
+		{B8D230EB-C02D-42C2-B8DA-105F3832CCC8}.Release|x86.ActiveCfg = Release|x86
+		{B8D230EB-C02D-42C2-B8DA-105F3832CCC8}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
