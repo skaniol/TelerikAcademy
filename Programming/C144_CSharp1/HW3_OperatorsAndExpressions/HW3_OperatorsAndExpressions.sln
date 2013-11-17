@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01_OddOrEvenInteger", "E01_OddOrEvenInteger\E01_OddOrEvenInteger.csproj", "{C6D671E6-CDD0-4D6B-9AD7-819FFF168CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02_DivisableBySevenAndFive", "E02_DivisableBySevenAndFive\E02_DivisableBySevenAndFive.csproj", "{7456838D-7061-42B6-B48D-369BB6FE03B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03_CalculateAreaOfRectangle", "E03_CalculateAreaOfRectangle\E03_CalculateAreaOfRectangle.csproj", "{3C764420-9E1B-4BF3-9C0E-995EB77BEF16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E04_IsThirdDigitEqualToSeven", "E04_IsThirdDigitEqualToSeven\E04_IsThirdDigitEqualToSeven.csproj", "{44B3E7AC-206F-4E60-8DC2-46D8BB636E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E05_FindFourthBitOfInteger", "E05_FindFourthBitOfInteger\E05_FindFourthBitOfInteger.csproj", "{658A794A-9C58-426B-9DDB-6AD603B88951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E06_IsPointWithinCircle", "E06_IsPointWithinCircle\E06_IsPointWithinCircle.csproj", "{C2EF6F9B-8157-4FCF-B5EB-A637B5616E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E07_CheckForPrime", "E07_CheckForPrime\E07_CheckForPrime.csproj", "{610D7BD1-2382-469B-B6EC-AFFA45001795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E08_CalculateAreaOfTrapezoid", "E08_CalculateAreaOfTrapezoid\E08_CalculateAreaOfTrapezoid.csproj", "{5F0E5B96-DEF7-4C31-AAF6-2CEF46E4ABE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E09_IsInCircleAndOutRectangle", "E09_IsInCircleAndOutRectangle\E09_IsInCircleAndOutRectangle.csproj", "{7BCEC809-B983-4D9D-96C7-58E2FC9F027F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E10_IsGivenBitSet", "E10_IsGivenBitSet\E10_IsGivenBitSet.csproj", "{CABC6339-C370-4822-98E0-410E00238469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E12_ChangeBitOfInteger", "E12_ChangeBitOfInteger\E12_ChangeBitOfInteger.csproj", "{08C1205B-D8C3-42E0-9A90-63081061665A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6D671E6-CDD0-4D6B-9AD7-819FFF168CC0}.Debug|x86.ActiveCfg = Debug|x86
+		{C6D671E6-CDD0-4D6B-9AD7-819FFF168CC0}.Debug|x86.Build.0 = Debug|x86
+		{C6D671E6-CDD0-4D6B-9AD7-819FFF168CC0}.Release|x86.ActiveCfg = Release|x86
+		{C6D671E6-CDD0-4D6B-9AD7-819FFF168CC0}.Release|x86.Build.0 = Release|x86
+		{7456838D-7061-42B6-B48D-369BB6FE03B3}.Debug|x86.ActiveCfg = Debug|x86
+		{7456838D-7061-42B6-B48D-369BB6FE03B3}.Debug|x86.Build.0 = Debug|x86
+		{7456838D-7061-42B6-B48D-369BB6FE03B3}.Release|x86.ActiveCfg = Release|x86
+		{7456838D-7061-42B6-B48D-369BB6FE03B3}.Release|x86.Build.0 = Release|x86
+		{3C764420-9E1B-4BF3-9C0E-995EB77BEF16}.Debug|x86.ActiveCfg = Debug|x86
+		{3C764420-9E1B-4BF3-9C0E-995EB77BEF16}.Debug|x86.Build.0 = Debug|x86
+		{3C764420-9E1B-4BF3-9C0E-995EB77BEF16}.Release|x86.ActiveCfg = Release|x86
+		{3C764420-9E1B-4BF3-9C0E-995EB77BEF16}.Release|x86.Build.0 = Release|x86
+		{44B3E7AC-206F-4E60-8DC2-46D8BB636E1A}.Debug|x86.ActiveCfg = Debug|x86
+		{44B3E7AC-206F-4E60-8DC2-46D8BB636E1A}.Debug|x86.Build.0 = Debug|x86
+		{44B3E7AC-206F-4E60-8DC2-46D8BB636E1A}.Release|x86.ActiveCfg = Release|x86
+		{44B3E7AC-206F-4E60-8DC2-46D8BB636E1A}.Release|x86.Build.0 = Release|x86
+		{658A794A-9C58-426B-9DDB-6AD603B88951}.Debug|x86.ActiveCfg = Debug|x86
+		{658A794A-9C58-426B-9DDB-6AD603B88951}.Debug|x86.Build.0 = Debug|x86
+		{658A794A-9C58-426B-9DDB-6AD603B88951}.Release|x86.ActiveCfg = Release|x86
+		{658A794A-9C58-426B-9DDB-6AD603B88951}.Release|x86.Build.0 = Release|x86
+		{C2EF6F9B-8157-4FCF-B5EB-A637B5616E6F}.Debug|x86.ActiveCfg = Debug|x86
+		{C2EF6F9B-8157-4FCF-B5EB-A637B5616E6F}.Debug|x86.Build.0 = Debug|x86
+		{C2EF6F9B-8157-4FCF-B5EB-A637B5616E6F}.Release|x86.ActiveCfg = Release|x86
+		{C2EF6F9B-8157-4FCF-B5EB-A637B5616E6F}.Release|x86.Build.0 = Release|x86
+		{610D7BD1-2382-469B-B6EC-AFFA45001795}.Debug|x86.ActiveCfg = Debug|x86
+		{610D7BD1-2382-469B-B6EC-AFFA45001795}.Debug|x86.Build.0 = Debug|x86
+		{610D7BD1-2382-469B-B6EC-AFFA45001795}.Release|x86.ActiveCfg = Release|x86
+		{610D7BD1-2382-469B-B6EC-AFFA45001795}.Release|x86.Build.0 = Release|x86
+		{5F0E5B96-DEF7-4C31-AAF6-2CEF46E4ABE2}.Debug|x86.ActiveCfg = Debug|x86
+		{5F0E5B96-DEF7-4C31-AAF6-2CEF46E4ABE2}.Debug|x86.Build.0 = Debug|x86
+		{5F0E5B96-DEF7-4C31-AAF6-2CEF46E4ABE2}.Release|x86.ActiveCfg = Release|x86
+		{5F0E5B96-DEF7-4C31-AAF6-2CEF46E4ABE2}.Release|x86.Build.0 = Release|x86
+		{7BCEC809-B983-4D9D-96C7-58E2FC9F027F}.Debug|x86.ActiveCfg = Debug|x86
+		{7BCEC809-B983-4D9D-96C7-58E2FC9F027F}.Debug|x86.Build.0 = Debug|x86
+		{7BCEC809-B983-4D9D-96C7-58E2FC9F027F}.Release|x86.ActiveCfg = Release|x86
+		{7BCEC809-B983-4D9D-96C7-58E2FC9F027F}.Release|x86.Build.0 = Release|x86
+		{CABC6339-C370-4822-98E0-410E00238469}.Debug|x86.ActiveCfg = Debug|x86
+		{CABC6339-C370-4822-98E0-410E00238469}.Debug|x86.Build.0 = Debug|x86
+		{CABC6339-C370-4822-98E0-410E00238469}.Release|x86.ActiveCfg = Release|x86
+		{CABC6339-C370-4822-98E0-410E00238469}.Release|x86.Build.0 = Release|x86
+		{08C1205B-D8C3-42E0-9A90-63081061665A}.Debug|x86.ActiveCfg = Debug|x86
+		{08C1205B-D8C3-42E0-9A90-63081061665A}.Debug|x86.Build.0 = Debug|x86
+		{08C1205B-D8C3-42E0-9A90-63081061665A}.Release|x86.ActiveCfg = Release|x86
+		{08C1205B-D8C3-42E0-9A90-63081061665A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
