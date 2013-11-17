@@ -22,6 +22,6 @@ class E06_IsPointWithinCircle
         }
 
         Console.WriteLine("The Point is {0} circle K(0,0) R = 5",
-            x*x + y*y <= 25 ? "within" : "NOT within");
+            x*x + y*y <= 25 ? "within" : "OUT of");
     }
 }
