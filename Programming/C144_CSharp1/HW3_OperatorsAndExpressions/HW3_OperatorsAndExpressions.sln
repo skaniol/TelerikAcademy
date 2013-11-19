@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E10_IsGivenBitSet", "E10_Is
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E12_ChangeBitOfInteger", "E12_ChangeBitOfInteger\E12_ChangeBitOfInteger.csproj", "{08C1205B-D8C3-42E0-9A90-63081061665A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E13_ExchangeBits", "E13_ExchangeBits\E13_ExchangeBits.csproj", "{E56C210F-B954-4E9B-9CA2-4A392FDB3F0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -73,6 +75,10 @@ Global
 		{08C1205B-D8C3-42E0-9A90-63081061665A}.Debug|x86.Build.0 = Debug|x86
 		{08C1205B-D8C3-42E0-9A90-63081061665A}.Release|x86.ActiveCfg = Release|x86
 		{08C1205B-D8C3-42E0-9A90-63081061665A}.Release|x86.Build.0 = Release|x86
+		{E56C210F-B954-4E9B-9CA2-4A392FDB3F0A}.Debug|x86.ActiveCfg = Debug|x86
+		{E56C210F-B954-4E9B-9CA2-4A392FDB3F0A}.Debug|x86.Build.0 = Debug|x86
+		{E56C210F-B954-4E9B-9CA2-4A392FDB3F0A}.Release|x86.ActiveCfg = Release|x86
+		{E56C210F-B954-4E9B-9CA2-4A392FDB3F0A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
