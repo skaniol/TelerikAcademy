@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E13_ExchangeBits", "E13_Exc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E11_ExtractBitOfInteger", "E11_ExtractBitOfInteger\E11_ExtractBitOfInteger.csproj", "{D95BB1BF-33D3-4E15-9C0D-5BCE7AF6BC29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E14_ExchangeChosenBits", "E14_ExchangeChosenBits\E14_ExchangeChosenBits.csproj", "{0A2C9445-09A1-4B49-9875-2736771CE9F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -85,6 +87,10 @@ Global
 		{D95BB1BF-33D3-4E15-9C0D-5BCE7AF6BC29}.Debug|x86.Build.0 = Debug|x86
 		{D95BB1BF-33D3-4E15-9C0D-5BCE7AF6BC29}.Release|x86.ActiveCfg = Release|x86
 		{D95BB1BF-33D3-4E15-9C0D-5BCE7AF6BC29}.Release|x86.Build.0 = Release|x86
+		{0A2C9445-09A1-4B49-9875-2736771CE9F6}.Debug|x86.ActiveCfg = Debug|x86
+		{0A2C9445-09A1-4B49-9875-2736771CE9F6}.Debug|x86.Build.0 = Debug|x86
+		{0A2C9445-09A1-4B49-9875-2736771CE9F6}.Release|x86.ActiveCfg = Release|x86
+		{0A2C9445-09A1-4B49-9875-2736771CE9F6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
