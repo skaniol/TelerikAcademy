@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01_SumThreeIntegers", "E01_SumThreeIntegers\E01_SumThreeIntegers.csproj", "{794B8E83-E5C5-40F0-AEFC-56F0649CC4BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02_PerimeterAndAreaOfCircle", "E02_PerimeterAndAreaOfCircle\E02_PerimeterAndAreaOfCircle.csproj", "{7D76F44D-D9B6-4B7A-8342-FB0AD91C7618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03_CompanyInfo", "E03_CompanyInfo\E03_CompanyInfo.csproj", "{362809BE-861E-4EEE-B53D-6547253D4991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E04_NumbersDivisableByFive", "E04_NumbersDivisableByFive\E04_NumbersDivisableByFive.csproj", "{BCCF0B4F-D20F-49F0-8E9D-31AF86310260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E05_GreaterOfTwoNumbers", "E05_GreaterOfTwoNumbers\E05_GreaterOfTwoNumbers.csproj", "{3EDF2B0E-9705-419A-8CEE-F89BDE28FA4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E06_SolveQuadraticEquation", "E06_SolveQuadraticEquation\E06_SolveQuadraticEquation.csproj", "{32EBF488-F965-4BDB-AC55-3A5EC6F526FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E07_SumOfXNumbers", "E07_SumOfXNumbers\E07_SumOfXNumbers.csproj", "{E89FABD3-8596-4BCA-9447-E985BB2DB84D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E08_PrintNumbersFromOneToN", "E08_PrintNumbersFromOneToN\E08_PrintNumbersFromOneToN.csproj", "{9D99E461-3357-4BBC-A498-60E7C03CD8B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{794B8E83-E5C5-40F0-AEFC-56F0649CC4BA}.Debug|x86.ActiveCfg = Debug|x86
+		{794B8E83-E5C5-40F0-AEFC-56F0649CC4BA}.Debug|x86.Build.0 = Debug|x86
+		{794B8E83-E5C5-40F0-AEFC-56F0649CC4BA}.Release|x86.ActiveCfg = Release|x86
+		{794B8E83-E5C5-40F0-AEFC-56F0649CC4BA}.Release|x86.Build.0 = Release|x86
+		{7D76F44D-D9B6-4B7A-8342-FB0AD91C7618}.Debug|x86.ActiveCfg = Debug|x86
+		{7D76F44D-D9B6-4B7A-8342-FB0AD91C7618}.Debug|x86.Build.0 = Debug|x86
+		{7D76F44D-D9B6-4B7A-8342-FB0AD91C7618}.Release|x86.ActiveCfg = Release|x86
+		{7D76F44D-D9B6-4B7A-8342-FB0AD91C7618}.Release|x86.Build.0 = Release|x86
+		{362809BE-861E-4EEE-B53D-6547253D4991}.Debug|x86.ActiveCfg = Debug|x86
+		{362809BE-861E-4EEE-B53D-6547253D4991}.Debug|x86.Build.0 = Debug|x86
+		{362809BE-861E-4EEE-B53D-6547253D4991}.Release|x86.ActiveCfg = Release|x86
+		{362809BE-861E-4EEE-B53D-6547253D4991}.Release|x86.Build.0 = Release|x86
+		{BCCF0B4F-D20F-49F0-8E9D-31AF86310260}.Debug|x86.ActiveCfg = Debug|x86
+		{BCCF0B4F-D20F-49F0-8E9D-31AF86310260}.Debug|x86.Build.0 = Debug|x86
+		{BCCF0B4F-D20F-49F0-8E9D-31AF86310260}.Release|x86.ActiveCfg = Release|x86
+		{BCCF0B4F-D20F-49F0-8E9D-31AF86310260}.Release|x86.Build.0 = Release|x86
+		{3EDF2B0E-9705-419A-8CEE-F89BDE28FA4E}.Debug|x86.ActiveCfg = Debug|x86
+		{3EDF2B0E-9705-419A-8CEE-F89BDE28FA4E}.Debug|x86.Build.0 = Debug|x86
+		{3EDF2B0E-9705-419A-8CEE-F89BDE28FA4E}.Release|x86.ActiveCfg = Release|x86
+		{3EDF2B0E-9705-419A-8CEE-F89BDE28FA4E}.Release|x86.Build.0 = Release|x86
+		{32EBF488-F965-4BDB-AC55-3A5EC6F526FD}.Debug|x86.ActiveCfg = Debug|x86
+		{32EBF488-F965-4BDB-AC55-3A5EC6F526FD}.Debug|x86.Build.0 = Debug|x86
+		{32EBF488-F965-4BDB-AC55-3A5EC6F526FD}.Release|x86.ActiveCfg = Release|x86
+		{32EBF488-F965-4BDB-AC55-3A5EC6F526FD}.Release|x86.Build.0 = Release|x86
+		{E89FABD3-8596-4BCA-9447-E985BB2DB84D}.Debug|x86.ActiveCfg = Debug|x86
+		{E89FABD3-8596-4BCA-9447-E985BB2DB84D}.Debug|x86.Build.0 = Debug|x86
+		{E89FABD3-8596-4BCA-9447-E985BB2DB84D}.Release|x86.ActiveCfg = Release|x86
+		{E89FABD3-8596-4BCA-9447-E985BB2DB84D}.Release|x86.Build.0 = Release|x86
+		{9D99E461-3357-4BBC-A498-60E7C03CD8B7}.Debug|x86.ActiveCfg = Debug|x86
+		{9D99E461-3357-4BBC-A498-60E7C03CD8B7}.Debug|x86.Build.0 = Debug|x86
+		{9D99E461-3357-4BBC-A498-60E7C03CD8B7}.Release|x86.ActiveCfg = Release|x86
+		{9D99E461-3357-4BBC-A498-60E7C03CD8B7}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
