@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E07_SumOfXNumbers", "E07_Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E08_PrintNumbersFromOneToN", "E08_PrintNumbersFromOneToN\E08_PrintNumbersFromOneToN.csproj", "{9D99E461-3357-4BBC-A498-60E7C03CD8B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E09_First100FibonacciNumbers", "E09_First100FibonacciNumbers\E09_First100FibonacciNumbers.csproj", "{8A0A8672-DAC1-4FC5-AD68-F0C6219E26DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E10_SumOfSequence", "E10_SumOfSequence\E10_SumOfSequence.csproj", "{2DAD00F2-76C1-4765-B20A-3002455344EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -55,6 +59,14 @@ Global
 		{9D99E461-3357-4BBC-A498-60E7C03CD8B7}.Debug|x86.Build.0 = Debug|x86
 		{9D99E461-3357-4BBC-A498-60E7C03CD8B7}.Release|x86.ActiveCfg = Release|x86
 		{9D99E461-3357-4BBC-A498-60E7C03CD8B7}.Release|x86.Build.0 = Release|x86
+		{8A0A8672-DAC1-4FC5-AD68-F0C6219E26DB}.Debug|x86.ActiveCfg = Debug|x86
+		{8A0A8672-DAC1-4FC5-AD68-F0C6219E26DB}.Debug|x86.Build.0 = Debug|x86
+		{8A0A8672-DAC1-4FC5-AD68-F0C6219E26DB}.Release|x86.ActiveCfg = Release|x86
+		{8A0A8672-DAC1-4FC5-AD68-F0C6219E26DB}.Release|x86.Build.0 = Release|x86
+		{2DAD00F2-76C1-4765-B20A-3002455344EA}.Debug|x86.ActiveCfg = Debug|x86
+		{2DAD00F2-76C1-4765-B20A-3002455344EA}.Debug|x86.Build.0 = Debug|x86
+		{2DAD00F2-76C1-4765-B20A-3002455344EA}.Release|x86.ActiveCfg = Release|x86
+		{2DAD00F2-76C1-4765-B20A-3002455344EA}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
