@@ -1,4 +1,4 @@
-﻿// 05. Write a program that finds the greatest of given 5 variables.
+﻿// 07. Write a program that finds the greatest of given 5 variables.
 
 using System;
 using System.Linq;
