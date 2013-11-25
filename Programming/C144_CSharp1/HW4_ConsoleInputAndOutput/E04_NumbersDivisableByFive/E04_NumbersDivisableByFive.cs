@@ -33,7 +33,10 @@ class E04_NumbersDivisableByFive
         int p = 0;
         for (uint i = firstNum; i <= secondNum; i++)
         {
-            if (i % 5 == 0) p++;
+            if (i % 5 == 0)
+            {
+                p++;
+            }
         }
 
         Console.WriteLine("p ({0}, {1}) = {2}", firstNum, secondNum, p);

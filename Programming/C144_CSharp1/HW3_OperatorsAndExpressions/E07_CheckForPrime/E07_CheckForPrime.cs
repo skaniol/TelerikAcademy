@@ -24,7 +24,10 @@ class E07_CheckForPrime
             }
         }
 
-        if (n < 2) isPrime = false;
+        if (n < 2)
+        {
+            isPrime = false;
+        }
 
         Console.WriteLine("{0} is {1}", n, isPrime ? "prime" : "NOT prime");
     }

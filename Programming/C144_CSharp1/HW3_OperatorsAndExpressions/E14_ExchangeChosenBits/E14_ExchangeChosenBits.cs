@@ -45,7 +45,10 @@ class E14_ExchangeChosenBits
         char[] sequences = nToString.ToCharArray();
         for (int i = 0; i < sequences.Length; i++)
         {
-            if (nMaskToString[i] == '0') sequences[i] = ' ';
+            if (nMaskToString[i] == '0')
+            {
+                sequences[i] = ' ';
+            }
         }
         Console.WriteLine("n    = {0} bin == {1,10} dec\nswitch {2}",
             nToString, n, new string(sequences));
