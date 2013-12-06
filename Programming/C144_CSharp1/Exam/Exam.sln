@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T1_2-4-8", "T1_2-4-8\T1_2-4-8.csproj", "{A2FFE7C8-1639-4651-B382-1E33BDC04A5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T2_NightmareOnCodeStreet", "T2_NightmareOnCodeStreet\T2_NightmareOnCodeStreet.csproj", "{4F122659-6791-4392-B715-DD04276D9E04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T4_KaspichaniaBoats", "T4_KaspichaniaBoats\T4_KaspichaniaBoats.csproj", "{1887DC78-8768-4B3E-8EAF-939D1DEBCB74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T5_GameOfPage", "T5_GameOfPage\T5_GameOfPage.csproj", "{8EA69A60-2FBC-4902-937D-3CD70761277F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2FFE7C8-1639-4651-B382-1E33BDC04A5B}.Debug|x86.ActiveCfg = Debug|x86
+		{A2FFE7C8-1639-4651-B382-1E33BDC04A5B}.Debug|x86.Build.0 = Debug|x86
+		{A2FFE7C8-1639-4651-B382-1E33BDC04A5B}.Release|x86.ActiveCfg = Release|x86
+		{A2FFE7C8-1639-4651-B382-1E33BDC04A5B}.Release|x86.Build.0 = Release|x86
+		{4F122659-6791-4392-B715-DD04276D9E04}.Debug|x86.ActiveCfg = Debug|x86
+		{4F122659-6791-4392-B715-DD04276D9E04}.Debug|x86.Build.0 = Debug|x86
+		{4F122659-6791-4392-B715-DD04276D9E04}.Release|x86.ActiveCfg = Release|x86
+		{4F122659-6791-4392-B715-DD04276D9E04}.Release|x86.Build.0 = Release|x86
+		{1887DC78-8768-4B3E-8EAF-939D1DEBCB74}.Debug|x86.ActiveCfg = Debug|x86
+		{1887DC78-8768-4B3E-8EAF-939D1DEBCB74}.Debug|x86.Build.0 = Debug|x86
+		{1887DC78-8768-4B3E-8EAF-939D1DEBCB74}.Release|x86.ActiveCfg = Release|x86
+		{1887DC78-8768-4B3E-8EAF-939D1DEBCB74}.Release|x86.Build.0 = Release|x86
+		{8EA69A60-2FBC-4902-937D-3CD70761277F}.Debug|x86.ActiveCfg = Debug|x86
+		{8EA69A60-2FBC-4902-937D-3CD70761277F}.Debug|x86.Build.0 = Debug|x86
+		{8EA69A60-2FBC-4902-937D-3CD70761277F}.Release|x86.ActiveCfg = Release|x86
+		{8EA69A60-2FBC-4902-937D-3CD70761277F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
