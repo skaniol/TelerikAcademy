@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryDigitsCount", "BinaryDigitsCount\BinaryDigitsCount.csproj", "{7AC354A8-2248-4AF7-82D2-9D04861ED614}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartesianCoordinateSystem", "CartesianCoordinateSystem\CartesianCoordinateSystem.csproj", "{E81653E5-24C5-43E1-B50A-DB1A0F102297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissCat", "MissCat\MissCat.csproj", "{BC65556A-BB03-48DC-92FF-6E4D4C674831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForestRoad", "ForestRoad\ForestRoad.csproj", "{393FB806-0D36-4CCC-B014-A6B3C995F522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsetSums", "SubsetSums\SubsetSums.csproj", "{1A0523DD-54CB-4061-AED9-6DACA94FEC7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +21,22 @@ Global
 		{7AC354A8-2248-4AF7-82D2-9D04861ED614}.Debug|x86.Build.0 = Debug|x86
 		{7AC354A8-2248-4AF7-82D2-9D04861ED614}.Release|x86.ActiveCfg = Release|x86
 		{7AC354A8-2248-4AF7-82D2-9D04861ED614}.Release|x86.Build.0 = Release|x86
+		{E81653E5-24C5-43E1-B50A-DB1A0F102297}.Debug|x86.ActiveCfg = Debug|x86
+		{E81653E5-24C5-43E1-B50A-DB1A0F102297}.Debug|x86.Build.0 = Debug|x86
+		{E81653E5-24C5-43E1-B50A-DB1A0F102297}.Release|x86.ActiveCfg = Release|x86
+		{E81653E5-24C5-43E1-B50A-DB1A0F102297}.Release|x86.Build.0 = Release|x86
+		{BC65556A-BB03-48DC-92FF-6E4D4C674831}.Debug|x86.ActiveCfg = Debug|x86
+		{BC65556A-BB03-48DC-92FF-6E4D4C674831}.Debug|x86.Build.0 = Debug|x86
+		{BC65556A-BB03-48DC-92FF-6E4D4C674831}.Release|x86.ActiveCfg = Release|x86
+		{BC65556A-BB03-48DC-92FF-6E4D4C674831}.Release|x86.Build.0 = Release|x86
+		{393FB806-0D36-4CCC-B014-A6B3C995F522}.Debug|x86.ActiveCfg = Debug|x86
+		{393FB806-0D36-4CCC-B014-A6B3C995F522}.Debug|x86.Build.0 = Debug|x86
+		{393FB806-0D36-4CCC-B014-A6B3C995F522}.Release|x86.ActiveCfg = Release|x86
+		{393FB806-0D36-4CCC-B014-A6B3C995F522}.Release|x86.Build.0 = Release|x86
+		{1A0523DD-54CB-4061-AED9-6DACA94FEC7D}.Debug|x86.ActiveCfg = Debug|x86
+		{1A0523DD-54CB-4061-AED9-6DACA94FEC7D}.Debug|x86.Build.0 = Debug|x86
+		{1A0523DD-54CB-4061-AED9-6DACA94FEC7D}.Release|x86.ActiveCfg = Release|x86
+		{1A0523DD-54CB-4061-AED9-6DACA94FEC7D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
