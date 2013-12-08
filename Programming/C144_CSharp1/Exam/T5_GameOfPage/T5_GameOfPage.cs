@@ -16,6 +16,13 @@ class T5_GameOfPage
             string question = Console.ReadLine();
             if (question == "what is" || question == "buy")
             {
+                //========================== Debug =============================
+                //for (int i = 0; i < 16; i++)
+                //{
+                //    Console.WriteLine(
+                //        Convert.ToString(lines[i], 2).PadLeft(16, '0'));
+                //}
+                //==============================================================
                 byte row = byte.Parse(Console.ReadLine());
                 byte column = byte.Parse(Console.ReadLine());
                 ushort topCookie = 0;
@@ -44,6 +51,8 @@ class T5_GameOfPage
                     column++;
                 }
                 //========================== Debug =============================
+                //Console.WriteLine("----------");
+                //Console.WriteLine("{0} {1} {2}", question, row, column);
                 //Console.WriteLine(Convert.ToString(
                 //    (topCookie >> (14 - column)) & 7, 2).PadLeft(3, '0'));
                 //Console.WriteLine(Convert.ToString(
