@@ -4,11 +4,11 @@ class T1_2_4_8
 {
     static void Main()
     {
-        uint a = uint.Parse(Console.ReadLine());
-        uint b = uint.Parse(Console.ReadLine());
-        uint c = uint.Parse(Console.ReadLine());
-        uint r = 0;
-        uint answer;
+        ulong a = uint.Parse(Console.ReadLine());
+        ulong b = uint.Parse(Console.ReadLine());
+        ulong c = uint.Parse(Console.ReadLine());
+        ulong r = 0;
+        ulong answer;
 
         switch (b)
         {

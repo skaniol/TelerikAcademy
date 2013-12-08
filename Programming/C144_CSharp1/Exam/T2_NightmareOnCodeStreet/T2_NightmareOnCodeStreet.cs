@@ -6,12 +6,15 @@ class T2_NightmareOnCodeStreet
     {
         string text = Console.ReadLine();
         int oddCount = 0;
-        int oddSum = 0;
+        ulong oddSum = 0;
 
         for (int i = 1; i < text.Length; i += 2)
         {
-            oddSum += text[i] - 48;
-            oddCount++;
+            if (text[i] > 47 && text[i] < 58)
+            {
+                oddSum += text[i] - 48U;
+                oddCount++;
+            }
         }
         Console.WriteLine(oddCount + " " + oddSum);
     }

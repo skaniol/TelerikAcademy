@@ -7,7 +7,7 @@ class T5_GameOfPage
         bool playing = true;
         int boughtCookies = 0;
         ushort[] lines = new ushort[16];
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 16; i++)
         {
             lines[i] = Convert.ToUInt16(Console.ReadLine(), 2);
         }
@@ -54,7 +54,7 @@ class T5_GameOfPage
                 topCookie = (ushort)(topCookie >> (byte)(14 - column) & 7);
                 centerCookie = (ushort)(centerCookie >> (byte)(14 - column) & 7);
                 bottomCookie = (ushort)(bottomCookie >> (byte)(14 - column) & 7);
-                string target = "";
+                string target = "smile";
                 if (topCookie == 7 && centerCookie == 7 && bottomCookie == 7)
                 {
                     target = "cookie";
