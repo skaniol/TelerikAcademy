@@ -6,39 +6,24 @@ class T4_KaspichaniaBoats
     {
         byte n = byte.Parse(Console.ReadLine());
         int width = n * 2 + 1;
-        int sideLength = (width - 1) / 2;
-        decimal height = 6 + ((n - 3) / 2m) * 3;
-        decimal sailsHeight = (2m / 3) * height;
-        decimal baseHeight = height / 3m;
+        int sideLength = (width - 2) / 2;
+        int baseHeight = (n + 1) / 2;
 
-        Console.WriteLine(
-            new string('.', sideLength) + "*" + new string('.', sideLength));
-        for (int i = (int)sailsHeight - 2; i > 0; i--)
+        Console.WriteLine("{0}*{0}", new string('.', sideLength + 1));
+        for (int i = n - 1; i > 0; i--)
         {
-            string left = new string('.', i) + "*";
-            left += new string('.', sideLength - left.Length);
-            string right = "";
-            for (int j = 0; j < left.Length; j++)
-            {
-                right += left[left.Length - j - 1].ToString();
-            }
-            Console.WriteLine(left + '*' + right);
+            Console.WriteLine("{0}*{1}*{1}*{0}",
+            new string('.', i), new string('.', sideLength - i));
         }
         Console.WriteLine(new string('*', width));
-        for (int i = 1; i < (int)baseHeight; i++)
+        for (int i = 1; i < baseHeight; i++)
         {
-            string left = new string('.', i) + "*";
-            left += new string('.', sideLength - left.Length);
-            string right = "";
-            for (int j = 0; j < left.Length; j++)
-            {
-                right += left[left.Length - j - 1].ToString();
-            }
-            Console.WriteLine(left + '*' + right);
+            Console.WriteLine("{0}*{1}*{1}*{0}",
+            new string('.', i), new string('.', sideLength - i));
         }
-        Console.WriteLine(
-            new string('.', (int)baseHeight) + new string('*', n) +
-            new string('.', (int)baseHeight));
+        n = (n & 1) == 1 ? n : ++n;
+        Console.WriteLine("{0}{1}{0}",
+            new string('.', baseHeight), new string('*', n));
     }
 }
 
