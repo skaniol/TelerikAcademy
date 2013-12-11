@@ -13,16 +13,6 @@ class T5_GameOfPage
         string question = Console.ReadLine();
         while (question != "paypal")
         {
-            //============================= Debug ==============================
-            //Console.WriteLine("________________");
-            //for (int i = 1; i < 17; i++)
-            //{
-            //    Console.WriteLine(
-            //        Convert.ToString(lines[i], 2).PadLeft(16, '0') + " " +
-            //        (i - 1) % 10);
-            //}
-            //Console.WriteLine(Environment.NewLine + "0123456789012345");
-            //==================================================================
             byte row = byte.Parse(Console.ReadLine());
             sbyte column = sbyte.Parse(Console.ReadLine());
             column = (sbyte)(14 - column);
@@ -37,13 +27,6 @@ class T5_GameOfPage
                 area = (ushort)((lines[row++] >> column << 6 |
                     lines[row++] >> column << 3 | lines[row] >> column) & 511);
             }
-            //============================= Debug ==============================
-            //Console.WriteLine();
-            //Console.WriteLine("{0} {1} {2}", question, row - 2, 14 - column);
-            //Console.WriteLine(Convert.ToString(area >> 6, 2).PadLeft(3, '0'));
-            //Console.WriteLine(Convert.ToString((area >> 3) & 7, 2).PadLeft(3, '0'));
-            //Console.WriteLine(Convert.ToString(area & 7, 2).PadLeft(3, '0'));
-            //==================================================================
             string answer = "smile";
             bool buy = (question == "buy");
             if ((area & 16) != 0)
