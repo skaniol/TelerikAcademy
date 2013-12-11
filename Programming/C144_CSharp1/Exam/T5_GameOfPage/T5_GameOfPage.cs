@@ -4,111 +4,77 @@ class T5_GameOfPage
 {
     static void Main()
     {
-        bool playing = true;
         int boughtCookies = 0;
-        ushort[] lines = new ushort[16];
-        for (int i = 0; i < 16; i++)
+        ushort[] lines = new ushort[18];
+        for (int i = 1; i < 17; i++)
         {
             lines[i] = Convert.ToUInt16(Console.ReadLine(), 2);
         }
-        while (playing)
+        string question = Console.ReadLine();
+        while (question != "paypal")
         {
-            string question = Console.ReadLine();
-            if (question == "what is" || question == "buy")
+            //============================= Debug ==============================
+            //Console.WriteLine("________________");
+            //for (int i = 1; i < 17; i++)
+            //{
+            //    Console.WriteLine(
+            //        Convert.ToString(lines[i], 2).PadLeft(16, '0') + " " +
+            //        (i - 1) % 10);
+            //}
+            //Console.WriteLine(Environment.NewLine + "0123456789012345");
+            //==================================================================
+            byte row = byte.Parse(Console.ReadLine());
+            sbyte column = sbyte.Parse(Console.ReadLine());
+            column = (sbyte)(14 - column);
+            ushort area;
+            if (column == -1)
             {
-                //========================== Debug =============================
-                //for (int i = 0; i < 16; i++)
-                //{
-                //    Console.WriteLine(
-                //        Convert.ToString(lines[i], 2).PadLeft(16, '0'));
-                //}
-                //==============================================================
-                byte row = byte.Parse(Console.ReadLine());
-                byte column = byte.Parse(Console.ReadLine());
-                ushort topCookie = 0;
-                if (row >= 1)
+                area = (ushort)((lines[row++] << 7 |
+                    lines[row++] << 4 | lines[row] << 1) & 438);
+            }
+            else
+            {
+                area = (ushort)((lines[row++] >> column << 6 |
+                    lines[row++] >> column << 3 | lines[row] >> column) & 511);
+            }
+            //============================= Debug ==============================
+            //Console.WriteLine();
+            //Console.WriteLine("{0} {1} {2}", question, row - 2, 14 - column);
+            //Console.WriteLine(Convert.ToString(area >> 6, 2).PadLeft(3, '0'));
+            //Console.WriteLine(Convert.ToString((area >> 3) & 7, 2).PadLeft(3, '0'));
+            //Console.WriteLine(Convert.ToString(area & 7, 2).PadLeft(3, '0'));
+            //==================================================================
+            string answer = "smile";
+            bool buy = (question == "buy");
+            if ((area & 16) != 0)
+            {
+                switch (area)
                 {
-                    topCookie = lines[row - 1];
-                }
-                ushort centerCookie = lines[row];
-                ushort bottomCookie = 0;
-                if (row < 14)
-                {
-                    bottomCookie = lines[row + 1];
-                }
-                if (column > 14)
-                {
-                    topCookie <<= 1;
-                    centerCookie <<= 1;
-                    bottomCookie <<= 1;
-                    column--;
-                }
-                if (column < 1)
-                {
-                    topCookie >>= 1;
-                    centerCookie >>= 1;
-                    bottomCookie >>= 1;
-                    column++;
-                }
-                //========================== Debug =============================
-                //Console.WriteLine("----------");
-                //Console.WriteLine("{0} {1} {2}", question, row, column);
-                //Console.WriteLine(Convert.ToString(
-                //    (topCookie >> (14 - column)) & 7, 2).PadLeft(3, '0'));
-                //Console.WriteLine(Convert.ToString(
-                //    (centerCookie >> (14 - column)) & 7, 2).PadLeft(3, '0'));
-                //Console.WriteLine(Convert.ToString(
-                //    (bottomCookie >> (14 - column)) & 7, 2).PadLeft(3, '0'));
-                //==============================================================
-                topCookie = (ushort)(topCookie >> (byte)(14 - column) & 7);
-                centerCookie = (ushort)(centerCookie >> (byte)(14 - column) & 7);
-                bottomCookie = (ushort)(bottomCookie >> (byte)(14 - column) & 7);
-                string target = "smile";
-                if (topCookie == 7 && centerCookie == 7 && bottomCookie == 7)
-                {
-                    target = "cookie";
-                }
-                else if ((centerCookie & 2) != 0)
-                {
-                    if ((centerCookie == 2) && (topCookie == 0) && (bottomCookie == 0))
-                    {
-                        target = "cookie crumb";
-                    }
-                    else
-                    {
-                        target = "broken cookie";
-                    }
-                }
-                if (question == "what is")
-                {
-                    Console.WriteLine(target);
-                }
-                if (question == "buy")
-                {
-                    if (target == "broken cookie" ||
-                        target == "cookie crumb")
-                    {
-                        Console.WriteLine("page");
-                    }
-                    else if (target == "cookie")
-                    {
-                        lines[row - 1] &= (ushort)~(7 << (14 - column));
-                        lines[row] &= (ushort)~(7 << (14 - column));
-                        lines[row + 1] &= (ushort)~(7 << (14 - column));
-                        boughtCookies++;
-                    }
-                    else
-                    {
-                        Console.WriteLine("smile");
-                    }
+                    case 16:
+                        answer = buy ? "page" : "cookie crumb";
+                        break;
+                    case 511:
+                        answer = "cookie";
+                        break;
+                    default:
+                        answer = buy ? "page" : "broken cookie";
+                        break;
                 }
             }
-            if (question == "paypal")
+            if (buy && answer == "cookie")
             {
-                Console.WriteLine(1.79m * boughtCookies);
-                playing = false;
+                lines[row--] &= (ushort)~(7 << column);
+                lines[row--] &= (ushort)~(7 << column);
+                lines[row] &= (ushort)~(7 << column);
+                boughtCookies++;
             }
+            else
+            {
+                Console.WriteLine(answer);
+            }
+            question = Console.ReadLine();
         }
+        Console.WriteLine(1.79m * boughtCookies);
     }
 }
 
