@@ -5,27 +5,27 @@ class T5_GameOfPage
     static void Main()
     {
         int boughtCookies = 0;
-        ushort[] lines = new ushort[18];
+        int[] lines = new int[18];
         for (int i = 1; i < 17; i++)
         {
-            lines[i] = Convert.ToUInt16(Console.ReadLine(), 2);
+            lines[i] = Convert.ToInt32(Console.ReadLine(), 2);
         }
         string question = Console.ReadLine();
         while (question != "paypal")
         {
-            byte row = byte.Parse(Console.ReadLine());
-            sbyte column = sbyte.Parse(Console.ReadLine());
-            column = (sbyte)(14 - column);
-            ushort area;
+            int row = int.Parse(Console.ReadLine());
+            int column = int.Parse(Console.ReadLine());
+            column = 14 - column;
+            int area;
             if (column == -1)
             {
-                area = (ushort)((lines[row++] << 7 |
-                    lines[row++] << 4 | lines[row] << 1) & 438);
+                area = (lines[row++] << 7 |
+                    lines[row++] << 4 | lines[row] << 1) & 438;
             }
             else
             {
-                area = (ushort)((lines[row++] >> column << 6 |
-                    lines[row++] >> column << 3 | lines[row] >> column) & 511);
+                area = (lines[row++] >> column << 6 |
+                    lines[row++] >> column << 3 | lines[row] >> column) & 511;
             }
             string answer = "smile";
             bool buy = (question == "buy");
@@ -46,9 +46,9 @@ class T5_GameOfPage
             }
             if (buy && answer == "cookie")
             {
-                lines[row--] &= (ushort)~(7 << column);
-                lines[row--] &= (ushort)~(7 << column);
-                lines[row] &= (ushort)~(7 << column);
+                lines[row--] &= ~(7 << column);
+                lines[row--] &= ~(7 << column);
+                lines[row] &= ~(7 << column);
                 boughtCookies++;
             }
             else

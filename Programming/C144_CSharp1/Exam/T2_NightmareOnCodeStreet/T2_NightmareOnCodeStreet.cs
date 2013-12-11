@@ -8,7 +8,7 @@ class T2_NightmareOnCodeStreet
         int oddCount = 0;
         ulong oddSum = 0;
 
-        for (int i = 1; i < text.Length; i += 2)
+        for (int i = 1, length = text.Length; i < length; i += 2)
         {
             if (text[i] > 47 && text[i] < 58)
             {

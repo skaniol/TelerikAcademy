@@ -4,7 +4,7 @@ class T4_KaspichaniaBoats
 {
     static void Main()
     {
-        byte n = byte.Parse(Console.ReadLine());
+        int n = int.Parse(Console.ReadLine());
         int width = n * 2 + 1;
         int sideLength = (width - 2) / 2;
         int baseHeight = (n + 1) / 2;

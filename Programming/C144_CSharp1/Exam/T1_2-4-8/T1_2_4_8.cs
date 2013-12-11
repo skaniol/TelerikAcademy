@@ -4,11 +4,10 @@ class T1_2_4_8
 {
     static void Main()
     {
-        ulong a = uint.Parse(Console.ReadLine());
-        ulong b = uint.Parse(Console.ReadLine());
-        ulong c = uint.Parse(Console.ReadLine());
+        ulong a = ulong.Parse(Console.ReadLine());
+        ulong b = ulong.Parse(Console.ReadLine());
+        ulong c = ulong.Parse(Console.ReadLine());
         ulong r = 0;
-        ulong answer;
 
         switch (b)
         {
@@ -26,13 +25,12 @@ class T1_2_4_8
         }
         if (r % 4 == 0)
         {
-            answer = r / 4;
+            Console.WriteLine(r / 4);
         }
         else
         {
-            answer = r % 4;
+            Console.WriteLine(r % 4);
         }
-        Console.WriteLine(answer);
         Console.WriteLine(r);
     }
 }
